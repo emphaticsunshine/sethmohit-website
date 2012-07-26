@@ -1,0 +1,211 @@
+
+@font-face {
+ font-family: ActionShaded;
+ src: url("../fonts/thebeautifulones.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: ActionShaded;
+ src: url("../fonts/ActionIsShaded.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: Ayuma;
+ src: url("../fonts/Ayuma2yk.eot") /* EOT file for IE */
+}
+
+@font-face {
+ font-family: Ayuma;
+ src: url("../fonts/Ayuma2yk.ttf") /* TTF file for CSS3 browsers */
+}
+
+html,body{
+	margin:0;
+	font-family: inherit
+}
+body{
+	background: url('../images/bg.jpg');
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+.hide{
+	display: none;
+}
+
+article, aside, footer, header, hgroup, nav, section{
+	display: block;
+}
+
+ul,ol{
+	list-style: none;
+	padding:0;
+	margin: 0
+}
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+	position: relative;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+}
+#header{
+	position: fixed;
+	width:inherit;
+	/width:960px;
+	height:80px;
+	background-color: #66645A;
+	top:0;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+	color:#B3B5AB;
+	z-index: 2;
+	font-family: cursive, Lucida Sans Unicode;
+}
+
+#logo{
+	margin-top: 20px;
+	margin-left: 5px;
+	font-family: ActionShaded;
+	text-transform: uppercase;
+	float: left;
+}
+h1{
+	font-size: 3.0em;
+	display:inline;
+}
+a{
+	text-decoration: none;
+	color:#B3B5AB;
+}
+ul#navigation{
+	list-style: none;
+	display: block;
+	position: relative;
+	float:left;
+	margin: 0;
+	padding:25px 50px;
+}
+#navigation li{
+	float: left;
+	padding: 0px 20px;
+}
+#navigation a{
+	display: block;
+	background-color: #D9D9CE;
+	color:#999383;
+	padding:5px 10px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius: 2px;
+	font-size: 1.5em;
+}
+#navigation a:hover,#navigation a.selected{
+	background-color: #999383;
+	color:#D9D9CE;
+}
+#content{
+	margin-top:80px;
+	/top:85px;
+	margin-bottom: 70px;
+	position: relative;
+	overflow-x: hidden;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+}
+
+#next-icon{
+	background:url('../images/next-sail-icon.png') no-repeat;
+	position: absolute;
+	top:140px;
+	right:150px;
+	padding:24px;
+}
+
+#simple-cartoon,#modern-cartoon{
+	position: absolute;
+	width:960px;
+	padding-top:10px;
+}
+#modern-cartoon{
+	left:1024px
+}
+#content p{
+	text-align: center;
+	font-size: 1.8em;
+	font-family: cursive;
+}
+
+.cartoon{
+	padding-left: 30%;
+}
+.cartoon img{
+	height: 100%;
+}
+
+span.highlight{
+	color:#999383;
+	border-bottom:1px dashed #999383
+}
+
+div.coming-soon{
+	font-size: 8em;
+	-webkit-transform:rotate(-40deg);
+	-moz-transform:rotate(-40deg);
+	-ms-transform:rotate(-40deg);
+	-o-transform:rotate(-40deg);
+	margin-top: 100px;
+	padding:40px;
+}
+
+
+#footer{
+	position:fixed;
+	height:50px;
+	padding:10px 0px;
+	background-color: #66645A;
+	bottom: 0px;
+	/*width:inherit;*/
+	width:960px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+	-left:160px;
+
+}
+
+#footer ul{
+	list-style: none;
+	padding-left:190px;
+}
+
+#footer li{
+	padding-left:10px;
+	float:left;
+	font-size: 1.2em;
+}
+
+#footer a{
+	color:#D9D9CE;
+}
+
+#copyright{
+	color:#D9D9CE;
+	font-size: 0.8em;
+	text-align: center;
+}
