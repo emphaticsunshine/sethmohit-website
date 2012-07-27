@@ -209,3 +209,8 @@ div.coming-soon{
 	font-size: 0.8em;
 	text-align: center;
 }
+#git-hub-fork{
+	position: absolute;
+	top:0;
+	left:0
+}
