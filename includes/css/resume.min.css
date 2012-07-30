@@ -2,9 +2,11 @@
 section{border:1px dashed #B3B5AB;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:10px;padding:5px}
 .hresume a{text-decoration:none;color:#66645A}
 .contact a.fn{font-size:2.6em;text-decoration:none;margin-left:10px;color:#66645A}
-em{color:#999383;font-size:0.9em;display:inline}
+.contact h2{display: inline;font-size:0.9em;color:#999383;text-decoration:none;font-style:italic}
 ul.adr{float:right;font-size:0.8em}
 h2{font-size:1.2em;text-decoration:underline;font-style:italic;margin:0;padding:2px 5px}
+h3{font-size:0.9em;margin: 0;padding:0}
+h4{display: inline;font-size: 0.8em;margin: 0;padding: 0}
 section#summary p{font-size:0.9em;text-align:left;margin:0;padding:2px 5px}
 #skills li{float:left;margin:5px;padding:2px}
 #skills a{display:block;background-color:#999383;border:1px solid #999383;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#D9D9CE;padding:5px 10px}
@@ -12,9 +14,9 @@ ol li{display:block;width:31%;float:left;position:relative;background-color:#999
 ol time.dtstart{position:absolute;top:0;right:2px;font-size:0.8em;-moz-box-shadow:-2px 2px 5px #888;-webkit-box-shadow:-2px 2px 5px #B3B5AB;box-shadow:-2px 2px 5px #B3B5AB;-moz-border-radius:0 0 0 4px;-webkit-border-radius:0 0 0 4px;border-radius:0 0 0 4px}
 ol time.dtend{position:absolute;top:0;left:2px;font-size:0.8em;-moz-box-shadow:2px 2px 5px #888;-webkit-box-shadow:2px 2px 5px #B3B5AB;box-shadow:2px 2px 5px #B3B5AB;-moz-border-radius:0 0 4px;-webkit-border-radius:0 0 4px 0;border-radius:0 0 4px 0}
 a.location{font-size:1.8em;margin-left:20%;display:inline;color:#D9D9CE;border-bottom:1px dashed #D9D9CE}
-span.summary{display:block;margin-left:20%;padding-top:5px}
+h4.summary{display:block;margin-left:20%;padding-top:5px}
 a.org{font-size:1.2em;color:#D9D9CE;border-bottom:1px dashed #D9D9CE}
-abbr.summary{display:inline-block;padding-top:5px}
+abbr.summary{display:inline-block;padding-top:5px;font-size: 0.8em}
 div.period-line{position:relative;height:20px;border-top:1px dashed #999383;margin:11px}
 .left-arrow{border-top:10px solid transparent;border-right:20px solid #999383;border-bottom:10px solid transparent;position:absolute;left:0;top:-10px}
 .right-arrow{border-top:10px solid transparent;border-left:20px solid #999383;border-bottom:10px solid transparent;right:0;top:-10px;position:absolute}
